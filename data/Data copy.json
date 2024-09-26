@@ -1,0 +1,114 @@
+{
+    "categories":[{
+        "name":"Interoperability and data sharing mechanism based on common data models and ontologies",
+        "icon":"/interoperability.png",
+        "services":[
+            {
+                "name":"DigiBUILD ontology",
+                "description":"DigiBUILD ontology is developed in a modular approach where various data models and ontologies covering different information domains will synthesize the final ontology. Existing data models and ontologies are extended and linked through common concepts and relations to meet the data requirements of DigiBUILD’s services.",
+                "url":"https://ontology.digibuild-project.com",
+                "authentication":false,
+                "integration-keycloak": false,
+                "image":"/homepage.png"
+            },
+            {
+                "name":"Input Data Management",
+                "description":"The Input Data Management component is part of the Middleware Layer and is responsible for loading data from various input data sources such as BIM authoring tools, external web services and message brokers.",
+                "url":"https://cloud.digibuild-project.com",
+                "authentication":false,
+                "integration-keycloak": false,
+                "image":"/homepage.png"
+            },
+            {
+                "name":"Intelligent querying",
+                "description":"Building Business Intelligence Dashboard and Intelligent Querying",
+                "url":"https://digibuild.epu.ntua.gr/data_sharing/bi/login/",
+                "authentication":false,
+                "integration-keycloak": false,
+                "image":"/BuildingBusinessIntelligence.png"
+            }
+        ]
+    },{
+        "name":"AI-based data-driven services for the built environment",
+        "icon":"/AI-basedServices.png",
+        "services":[
+            {
+                "name":"Performance monitoring and benchmarking",
+                "description":"DIGIBuild offers an AI-based service for finer-grained energy profiling and forecasting. This service can assist users in decision-making regarding HVAC system upgrades, providing solutions for optimal energy and cost efficiency. Additionally, the service enables consumer behavior monitoring and visualization, as well as usage simulation and recommendations, to help achieve further cost reduction.",
+                "url":"https://digibuild.epu.ntua.gr/ac_services/login",
+                "authentication":false,
+                "integration-keycloak": false,
+                "image":"/S3.1.1.png"
+            },
+            {
+                "name":"Enhanced comfort and well-being",
+                "description":"This service aims at evaluating people's comfort and well-being through the development and application of AI-based algorithms designed to quantify and predict comfort-related elements starting from factors related to Indoor Environmental Quality (IEQ).",
+                "url":" http://digibuild-demo.eu/digibuild/ https://lookerstudio.google.com/reporting/45c0c67a-1fff-433d-97c6-d8b897891331",
+                "authentication":false,
+                "integration-keycloak": false,
+                "image":"/AI-basedServices.png"
+            },
+            {
+                "name":"Energy efficiency financing and policy making",
+                "description":"The objective of this service is to facilitate the decision-making process of building owners/users with regards to their building’s renovation considering the energy consumption and the related costs of interventions.",
+                "url":"",
+                "authentication":false,
+                "integration-keycloak": false,
+                "image":"/EnergyEfficiencyFinancingPolicyMaking.png"
+            },
+            {
+                "name":"One-stop-shop",
+                "description":"A tool designed for creating and assessing building energy upgrade scenarios from energy, economic, environmental, and social perspectives. It is based on simulation scenarios and utilizes the EnergyPlus (EPlus) simulation engine.",
+                "url":"http://digibuild.epu.ntua.gr:8002/one_stop_shop/login/",
+                "authentication":false,
+                "integration-keycloak": false,
+                "image":"/s3.4.2.png"
+            },
+            {
+                "name":"Efficient and climate resilient buildings",
+                "description":"A comprehensive tool for assessing climate resilience in buildings. This includes conducting a climate exposure analysis, followed by identifying the building's components to evaluate its capacity to withstand specific climate events.",
+                "url":"https://digibuild.epu.ntua.gr/clim_res/login",
+                "authentication":false,
+                "integration-keycloak": false,
+                "image":"/s3.5.1.png"
+            }
+        ]
+    },{
+        "name":"Digital Twin",
+        "icon":"/digitalTwin.png",
+        "services":[
+            {
+                "name":"Digital Twin for optimal energy management - HERON Pilot",
+                "description":"The DT created for Heron, a Greek power company, is designed to provide valuable insights into the energy consumption of a residential structure.",
+                "url":"https://heron-twin.dev-digital-enabler.eng.it/",
+                "authentication":false,
+                "integration-keycloak": false,
+                "image":"/digitalTwin.png"
+            },
+            {
+                "name":"Digital Building Logbook - FVH Pilot ",
+                "description":"The Digital Building Logbook is a dynamic tool working as common repository for all relevant building data.",
+                "url":"",
+                "authentication":false,
+                "integration-keycloak": false,
+                "image":"/digitalBuildingLogbook-FVHPilot.png"
+            },
+            {
+                "name":"District Network Digital Twin - VEOLIA Pilot (Rio Vena)",
+                "description":" The Digital Twin developed for VEOLIA, is designed to provide an optimal management and operation​ of the Distric Heating in Rio Vena, Burgos, Spain",
+                "url":"",
+                "authentication":false,
+                "integration-keycloak": false,
+                "image":"/digitalTwin.png"
+            },
+            {
+                "name":"District Network Digital Twin - VEOLIA Pilot (CP Fasa)",
+                "description":" The Digital Twin developed for VEOLIA, is designed to provide an optimal management and operation​ of the District Heating in CP FASA, Valladolid, Spain through a graphical user interface where data from buildings can be queried, simulations can be run and optimal operation recommendations are obtained.",
+                "url":"https://tools.cartif.es/digibuild",
+                "authentication":false,
+                "integration-keycloak": false,
+                "image":"/digitalTwin.png"
+            }
+        ]
+    }
+]}
