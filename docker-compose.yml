@@ -1,0 +1,15 @@
+version: "3"
+services:
+  solution_nodejs:
+    build: .
+    ports:
+      - "8080:8080"
+    restart: always
+    container_name: solution_nodejs
+    # volumes:
+    #   - /data/solutions/solutions_nodejs_be:/opt/solutions_nodejs
+    env_file:
+      - ./.env
+networks:
+   default:
+       driver: bridge
