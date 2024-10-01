@@ -43,7 +43,7 @@
             {
                 "name":"Enhanced comfort and well-being",
                 "description":"This service aims at evaluating people's comfort and well-being through the development and application of AI-based algorithms designed to quantify and predict comfort-related elements starting from factors related to Indoor Environmental Quality (IEQ).",
-                "url":"https://lookerstudio.google.com/reporting/45c0c67a-1fff-433d-97c6-d8b897891331",
+                "url":" https://digibuild-demo.eu/digibuild/",
                 "authentication":false,
                 "integration-keycloak": false,
                 "image":"/AI-basedServices.png"
@@ -59,7 +59,7 @@
             {
                 "name":"One-stop-shop",
                 "description":"A tool designed for creating and assessing building energy upgrade scenarios from energy, economic, environmental, and social perspectives. It is based on simulation scenarios and utilizes the EnergyPlus (EPlus) simulation engine.",
-                "url":"http://digibuild.epu.ntua.gr:8002/one_stop_shop/login/",
+                "url":"https://digibuild.epu.ntua.gr/one_stop_shop/login/",
                 "authentication":false,
                 "integration-keycloak": false,
                 "image":"/s3.4.2.png"
@@ -78,6 +78,15 @@
         "icon":"/digitalTwin.png",
         "services":[
             {
+                "name":"Digital Twin for designing future buildings - FOCCHI Pilot",
+                "description":"",
+                "url":"",
+                "authentication":false,
+                "integration-keycloak": false,
+                "image":""
+                
+            },
+            {
                 "name":"Digital Twin for optimal energy management - HERON Pilot",
                 "description":"The DT created for Heron, a Greek power company, is designed to provide valuable insights into the energy consumption of a residential structure.",
                 "url":"https://heron-twin.dev-digital-enabler.eng.it/",
@@ -86,12 +95,39 @@
                 "image":"/digitalTwin.png"
             },
             {
+                "name":"Digital Twin for optimal energy management - EMOT Pilot",
+                "description":"",
+                "url":"",
+                "authentication":false,
+                "integration-keycloak": false,
+                "image":""
+                
+            },
+            {
+                "name":"Digital Twin for planning of building infrastructure",
+                "description":"The Digital Twin designed by EDF is a tool that provides a Building Energy Model calibrated thanks to onsite measurements and used to predict the impact on energy and economic KPIs of building renovation solutions. In order to have a look a it, please send an email to aurelie.kaemmerlen@edf.fr",
+                "url":"",
+                "authentication":false,
+                "integration-keycloak": false,
+                "image":""
+                
+            },
+            {
                 "name":"Digital Building Logbook - FVH Pilot ",
                 "description":"The Digital Building Logbook is a dynamic tool working as common repository for all relevant building data.",
                 "url":"",
                 "authentication":false,
                 "integration-keycloak": false,
                 "image":"/digitalBuildingLogbook-FVHPilot.png"
+            },
+            {
+                "name":"Digital Building Logbook - IASI&SITTA Pilot",
+                "description":"",
+                "url":"",
+                "authentication":false,
+                "integration-keycloak": false,
+                "image":""
+                
             },
             {
                 "name":"District Network Digital Twin - VEOLIA Pilot (Rio Vena)",
@@ -104,7 +140,7 @@
             {
                 "name":"District Network Digital Twin - VEOLIA Pilot (CP Fasa)",
                 "description":" The Digital Twin developed for VEOLIA, is designed to provide an optimal management and operation​ of the District Heating in CP FASA, Valladolid, Spain through a graphical user interface where data from buildings can be queried, simulations can be run and optimal operation recommendations are obtained.",
-                "url":"https://tools.cartif.es/digibuild",
+                "url":"https://apps.digibuild-project.eu/dt-fasa/",
                 "authentication":false,
                 "integration-keycloak": false,
                 "image":"/digitalTwin.png"
