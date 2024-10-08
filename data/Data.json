@@ -29,6 +29,19 @@
             }
         ]
     },{
+        "name":"Data quality",
+        "icon":"/dataQuality.png",
+        "services":[
+            {
+                "name":"Data quality",
+                "description":"Service in charge of checking data quality from a historical dataset, obtaining completeness, accuracy, reliability and consistency of data. The tool is currently in beta version, with the aim of being improved with the user experience. Users must register before using it. In case any bug or error is detected, please inform josher@cartif.es and susmar@cartif.es.",
+                "url":"https://tools.cartif.es/quality/quality/",
+                "authentication":false,
+                "integration-keycloak": false,
+                "image":"/previewCartifDataQuality.png"
+            }
+        ]
+    },{
         "name":"AI-based data-driven services for the built environment",
         "icon":"/AI-basedServices.png",
         "services":[
